@@ -30,10 +30,11 @@ Project-01/
 │   └── __init__.py
 ├── data/
 │   └── data.csv            # Customer dataset
+├── main.py                 # Server Starter file
 ├── pipeline.pkl            # Trained model pipeline (generated)
 ├── metrics.pkl             # Model metrics (generated)
-├── requirements.txt        # Python dependencies
-└── README.md              # This file
+├── pyproject.toml          # Python dependencies
+└── README.md               # This file
 ```
 
 ## Installation
@@ -47,7 +48,7 @@ Project-01/
 
 1. **Clone or navigate to the project directory**
    ```bash
-   cd /media/areeb/Data/Workspace/ML+FastAPI/Project-01
+   cd /media/user/Data/Customer-Churn-Prediction-API
    ```
 
 2. **Create a virtual environment** (recommended)
@@ -58,7 +59,7 @@ Project-01/
 
 3. **Install dependencies**
    ```bash
-   pip install -r requirements.txt
+   pip install fastapi[standard] joblib pandas scikit-learn uvicorn[standard]
    ```
 
 4. **Train the model** (if pipeline.pkl doesn't exist)
