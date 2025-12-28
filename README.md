@@ -1,7 +1,5 @@
 # Customer Churn Prediction API
 
-A FastAPI-based REST API for predicting customer churn using machine learning. This application uses a RandomForest classifier to identify customers at risk of churning based on their behavioral and subscription data.
-
 ## Table of Contents
 
 - [Features](#features)
