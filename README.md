@@ -24,8 +24,7 @@
 Project-01/
 ├── app/
 │   ├── app.py              # FastAPI application and endpoints
-│   ├── schemas.py          # Pydantic data models for validation
-│   └── __init__.py
+│   └── schemas.py          # Pydantic data models for validation
 ├── training/
 │   ├── training_model.py   # ML training pipeline
 │   └── __init__.py
